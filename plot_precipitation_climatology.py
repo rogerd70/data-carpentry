@@ -33,6 +33,7 @@ def create_plot(clim, model_name, season, gridlines=False, levels=None):
     
     """
 
+    "if levels hasn't been set from the command line
     if not levels:
         levels = np.arange(0,13.5,1.5)
         
